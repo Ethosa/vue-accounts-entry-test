@@ -1,0 +1,39 @@
+{
+  "name": "vue-accounts-entry-test",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build"
+  },
+  "dependencies": {
+    "@primeuix/themes": "^2.0.3",
+    "pinia": "^3.0.4",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.5.4",
+    "vue": "^3.5.27",
+    "vue-router": "^5.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.10.9",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "@vue/tsconfig": "^0.8.1",
+    "autoprefixer": "^10.4.24",
+    "npm-run-all2": "^8.0.4",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-vue-devtools": "^8.0.5",
+    "vue-tsc": "^3.2.4"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
