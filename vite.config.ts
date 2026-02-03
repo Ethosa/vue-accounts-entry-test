@@ -12,6 +12,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss()
   ],
+  base: '/vue-accounts-entry-test/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
